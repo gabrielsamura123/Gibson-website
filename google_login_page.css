@@ -1,0 +1,159 @@
+.glogin{
+      background-color: burlywood;
+      width: 500px;
+      height: 400px;
+      margin: auto;
+      margin-top: 80px;
+      box-shadow: 1px 3px 4px black;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      color: white;
+}
+.glogin img{
+      width: 200px;
+      height: 200px;
+      margin-left: 160px;
+      margin-top: 50px;
+      border: none;
+}
+.glogin input{
+      border: none;
+      border-radius: 30px;
+      width: 400px;
+      height: 80px;
+      margin-left: 47px;
+      color: white;
+      font-family: Akando;
+      margin-top: 20px;
+}
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      background-color: burlywood;
+}
+.sign{
+      border: 1px solid black;
+      width: 500px;
+      height: 400px;
+      margin: auto;
+      background-color: rgb(2, 67, 88);
+      box-shadow: 1px 3px 4px black;
+      border-radius: 10px;
+      color: white;
+}
+.sign legend{
+      font-family: Akando;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      cursor: pointer;
+      text-align: center;
+}
+.sign form{
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+}
+form .uname{
+      border: none;
+      box-shadow: 1px 2px 3px black;
+      height: 60px;
+      border-radius: 50px;
+      text-align: center;
+      width: 300px;
+      margin: auto;
+      margin-top: -5px;
+      cursor: pointer;
+      background-color: red;
+      transition: background-color 0.3s;
+      color: rgb(0, 0, 0);
+      &:hover {
+            background-color: rgb(208, 78, 78);
+      }
+}
+form .unam{
+      text-align: center;
+      font-family: Akando;
+      margin-top: 55px;
+      text-transform: uppercase;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      cursor: pointer;
+}
+form .pw{
+      text-align: center;
+      font-family: Akando;
+      margin-top: 10px;
+      text-transform: uppercase;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      cursor: pointer;
+}
+form .psw{
+      border: none;
+      box-shadow: 1px 2px 3px black;
+      height: 60px;
+      border-radius: 50px;
+      text-align: center;
+      width: 300px;
+      margin: auto;
+      margin-top: -5px;
+      cursor: pointer;
+      color: rgb(0, 0, 0);
+      background-color: rgb(9, 150, 32);
+      transition: background-color 0.3s;
+      &:hover {
+            background-color: rgb(80, 184, 111);
+      }
+}
+form .log{
+      text-align: center;
+      font-family: Akando;
+      margin-top: 10px;
+      text-transform: uppercase;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      cursor: pointer;
+      width: 300px;
+      height: 60px;
+      border-radius: 50px;
+      margin: auto;
+      color: white;
+      background-color: rgb(204, 156, 0);
+      border: none;
+      box-shadow: 1px 2px 3px black;
+      transition: background-color 0.3s;
+      &:hover{
+            background-color: rgb(195, 144, 56);
+      }
+}
+form p{
+      font-family: Akando;
+      margin-top: 20px;
+      color: red;
+      text-shadow: 1px 1px 2px black;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      transition: color 0.3s;
+      &:hover{
+            color: rgb(255, 255, 255);
+      }
+}
+form a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      cursor: pointer;
+      transition: color 0.3s;
+      &:hover{
+            color: rgb(255, 0, 0);
+      }
+}
